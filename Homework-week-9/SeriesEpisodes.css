@@ -1,0 +1,19 @@
+body {
+  background: url(../Homework-week-9/images/rkandmort2.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#episodes {
+    display: flex;
+}
+
+#first-container {
+    display: flex;
+}
+
+figure {
+    display: flex;
+}
+
