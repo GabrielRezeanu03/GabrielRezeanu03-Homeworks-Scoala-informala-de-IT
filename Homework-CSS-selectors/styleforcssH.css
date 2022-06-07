@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  transition: all 0.3s ease;
+}
+body {
+  height: 100vh;
+  background-color: #f8f8f8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#container {
+  width: 700px;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 2px 2px 20pcx rgba(0, 0, 0, 0.4);
+  background-image: linear-gradient(#683ad0, #db5375, #f6d3e3);
+  margin: 30px;
+  border-radius: 20px;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  background-image: linear-gradient(135deg, #683ad0, #db5375, #f6d3e3 100%);
+}
+
+.container .header {
+  padding-left: 4%;
+  padding-top: 30px;
+}
+
+.content {
+  padding: 50px;
+}
+
+p::first-letter {
+  color: blue;
+  font-size: 200%;
+}
+
+ul {
+  padding: 50px;
+}
+
+li {
+  padding: 3px;
+}
+
+li > a[href*="en.wi"] {
+  background-color: yellow;
+  border-radius: 5px;
+}
+
+#container div > p > a[href*="Bomb"]:hover {
+  background: red;
+}
+
