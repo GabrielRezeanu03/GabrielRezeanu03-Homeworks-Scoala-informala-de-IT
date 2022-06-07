@@ -1,0 +1,70 @@
+.logo {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+}
+
+body {
+  background: url(../images/background-rickandmorty.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.episode-container {
+  width: 300;
+  height: 300;
+}
+
+.navbar {
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+figure {
+  border: thin #c0c0c0 solid;
+  display: flex;
+  flex-flow: column;
+  padding: 5px;
+  max-width: 220px;
+  margin: 100px;
+  background-color: black;
+}
+
+img {
+  max-width: 220px;
+  max-height: 150px;
+}
+
+figcaption {
+  background-color: #222;
+  color: #fff;
+  font: italic smaller sans-serif;
+  padding: 3px;
+  text-align: center;
+}
+
+h2,
+h4 {
+  color: hwb(1.5708rad 20% 10% / 0.7);
+}
+
+.nav-item2 h1 {
+  color: hwb(1.5708rad 20% 10% / 0.7);
+  padding-right: 40px;
+}
+
+.nav-item2 h1:hover {
+  color: red;
+}
+
+button {
+  background-color: hwb(1.5708rad 20% 10% / 0.7);;
+  border-radius: 20px;
+}
+
+button:hover {
+    background-color: white;
+}
